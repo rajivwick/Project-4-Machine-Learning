@@ -59,7 +59,8 @@ def index():
     # Hard coded items to generate predictions and visual analysis on - purpose to reduce load time as generating the top 5-10 as initially planned would consume a large amount of time.
     # For a finalized version of this dashboard, a goal would be to run this app with auto generation of top 5-10 items and/or bottom 5-10 itmes.
     
-    include_items = ['Garlic Naan']   
+    include_items = ['Garlic Naan']
+    # include_items = ['Garlic Naan', 'Butter Chicken', 'Chicken Korma', 'Rogan Josh']   
 
     # Run ML Models and query single item - chosen for the purpose of demonstration. 
     # ML model will generate - Revenue, historical meat prices and a prediction model + bar chart of the included_items list.
